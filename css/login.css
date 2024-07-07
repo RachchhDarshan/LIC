@@ -1,0 +1,120 @@
+body
+{
+    
+    background-color: cadetblue;
+    color: rgb(204 , 204 , 204);
+}
+.main{
+    background-repeat: no-repeat;
+    
+}
+.container{
+    height: 500px;
+}
+.login-form
+{
+    padding: 25px;
+}
+
+.login-form form
+{
+
+    background-color:black;
+    max-width: 400px;
+    margin: auto;
+    padding: 40px 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.login-form .form-name
+{
+    text-align: center;
+    font-size: 40px;
+    color: #78c2ad;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+    line-height: 80px;
+}
+
+.login-form .item
+{
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding: 10px 10px;
+}
+
+.login-form .login-account
+{
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: orangered;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+.register{
+    color: white;
+}
+.login-form .form-group a
+{
+    color: #78c2ad;
+}
+
+.login-form .social-media
+{
+ 
+    max-width: 400px;
+    background-color:black;
+    margin: auto;
+    padding: 30px 0;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #78c2ad;
+    border-top: 1px solid #dee9ff;
+}
+
+.btn
+{
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.btn:hover
+{
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.login-form .social-icons
+{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.login-form .social-icons a
+{
+    font-size: 20px;
+    margin: 3px;
+    color: #78c2ad;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 40px;
+    display: inline-block;
+    height: 45px;
+    background-color: #fff;
+    line-height: 45px;
+}
+
+.login-form .social-icons a:hover
+{
+    text-decoration: none;
+    opacity: 0.6;
+}
